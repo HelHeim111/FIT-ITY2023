@@ -1,7 +1,10 @@
-NAME = proj1
+FILE_NAME = proj1
 
 all:
-	pdflatex $(NAME).tex
+	latex $(FILE_NAME).tex
+	latex $(FILE_NAME).tex
+	dvips $(FILE_NAME).dvi
+	ps2pdf $(FILE_NAME).ps
 
 clean:
-	rm -f $(NAME).{out,log,aux,pdf}
+	rm -f $(FILE_NAME).{out,log,aux,pdf,ps,dvi}

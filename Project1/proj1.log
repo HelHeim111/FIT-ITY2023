@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.22)  22 FEB 2023 20:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=latex 2023.2.22)  22 FEB 2023 21:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -53,10 +53,13 @@ Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 149.
+Package color Info: Driver file: dvips.def on input line 149.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -102,7 +105,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
@@ -195,22 +198,29 @@ package with kernel methods
 \c@Item=\count271
 \c@Hfootnote=\count272
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver (default): hdvips.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2021-06-07 v7.00m Hyperref driver for dvips
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2021-06-07 v7.00m Hyperref definitions for pdfmark specials
+\pdf@docset=\toks18
+\pdf@box=\box50
+\pdf@toks=\toks19
+\pdf@defaulttoks=\toks20
+\HyField@AnnotCount=\count273
+\Fld@listcount=\count274
+\c@bookmark@seq@number=\count275
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count273
-\c@bookmark@seq@number=\count274
-
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
 (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
@@ -218,17 +228,18 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip49
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+File: l3backend-dvips.def 2022-01-12 L3 backend support: dvips
+\l__pdf_internal_box=\box51
+\g__pdf_backend_object_int=\count276
+\l__pdf_backend_content_box=\box52
+\l__pdf_backend_model_box=\box53
+\g__pdf_backend_annotation_int=\count277
+\g__pdf_backend_link_int=\count278
+\g__pdf_backend_link_sf_int=\count279
 )
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count275
-\l__pdf_internal_box=\box50
-)
-(./proj1.aux
-
-LaTeX Warning: Label `sec:sazba' multiply defined.
-
-)
+(./proj1.aux)
 \openout1 = `proj1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -249,24 +260,11 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count276
-\scratchdimen=\dimen152
-\scratchbox=\box51
-\nofMPsegments=\count277
-\nofMParguments=\count278
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count279
-\MPscratchDim=\dimen153
-\MPnumerator=\count280
-\makeMPintoPDFobject=\count281
-\everyMPtoPDFconversion=\toks19
-)
+
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: dvips
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -307,7 +305,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count282
+\c@section@level=\count280
 )
 LaTeX Info: Redefining \ref on input line 13.
 LaTeX Info: Redefining \pageref on input line 13.
@@ -324,61 +322,36 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 34.
+(Font)              <7> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 34.
-LaTeX Font Info:    Trying to load font information for T1+pzc on input line 35
+(Font)              <5> on input line 35.
+LaTeX Font Info:    Trying to load font information for T1+pzc on input line 36
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pzc.fd
 File: t1pzc.fd 2020/03/25 font definitions for T1/pzc.
 )
 LaTeX Font Info:    Font shape `T1/pzc/m/n' in size <10> not available
-(Font)              Font shape `T1/pzc/m/it' tried instead on input line 35.
+(Font)              Font shape `T1/pzc/m/it' tried instead on input line 36.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
-0.
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+) [1
 
 
 ] (./proj1.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `proj1.out' has not changed.
 (rerunfilecheck)             Checksum: 45DDC3F6948A1739CC53DC6BDBF1EE3C;545.
  ) 
 Here is how much of TeX's memory you used:
- 9627 strings out of 480247
- 150749 string characters out of 5896151
- 475902 words of memory out of 5000000
- 27460 multiletter control sequences out of 15000+600000
- 484560 words of font info for 54 fonts, out of 8000000 for 9000
+ 9378 strings out of 480248
+ 147828 string characters out of 5896177
+ 478067 words of memory out of 5000000
+ 27221 multiletter control sequences out of 15000+600000
+ 483704 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,8n,63p,216b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/helheim/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.6
-00pk> </home/helheim/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm060
-0.600pk> </home/helheim/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm
-1000.600pk> </home/helheim/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-ctt1000.600pk> </home/helheim/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/e
-c/ecrm0700.600pk> </home/helheim/.texlive2021/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecbx2488.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
- </home/helheim/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1000.600
-pk> </home/helheim/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0500.
-600pk> </home/helheim/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti10
-00.600pk> </home/helheim/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecb
-x1000.600pk> </home/helheim/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/
-ecrm1000.600pk> </home/helheim/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/
-ec/ecbx1440.600pk> </home/helheim/.texlive2021/texmf-var/fonts/pk/ljfour/jknapp
-en/ec/ecrm1200.600pk> </home/helheim/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecrm1728.600pk></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfchan
-/uzcmi8a.pfb>
-Output written on proj1.pdf (1 page, 99305 bytes).
-PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 65i,9n,67p,218b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+Output written on proj1.dvi (1 page, 12996 bytes).
