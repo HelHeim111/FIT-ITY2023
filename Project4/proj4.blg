@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: proj4.aux
+The style file: czechiso.bst
+Database file #1: proj4.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--to sort, need author or key in Article
+Warning--empty author in Article
+You've used 9 entries,
+            3151 wiz_defined-function locations,
+            705 strings with 6533 characters,
+and the built_in function-call counts, 3191 in all, are:
+= -- 204
+> -- 57
+< -- 8
++ -- 25
+- -- 16
+* -- 160
+:= -- 374
+add.period$ -- 18
+call.type$ -- 9
+change.case$ -- 28
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 338
+empty$ -- 348
+format.name$ -- 16
+if$ -- 697
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 81
+newline$ -- 42
+num.names$ -- 16
+pop$ -- 167
+preamble$ -- 1
+purify$ -- 26
+quote$ -- 0
+skip$ -- 118
+stack$ -- 0
+substring$ -- 87
+swap$ -- 168
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 32
+warning$ -- 2
+while$ -- 23
+width$ -- 10
+write$ -- 92
+(There were 2 warnings)

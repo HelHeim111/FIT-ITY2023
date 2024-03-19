@@ -1,0 +1,50 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{Dostupné z: }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\selectlanguage}[1]{\relax}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{Article}
+TypeNotes. \emph{Fontsmith}, ročník~3, 2020: str.~4.
+
+\bibitem{FullArticle}
+Dylan~Cunningham, A.~C.: Typography Magazine. \emph{Byzantine Magazine},
+  ročník~9, 2019: s. 6--15.
+
+\bibitem{OdbornyText}
+Knytl, M.: \emph{TYPOGRAFIE and ODBORNÝ TEXT}, kapitola ÚVOD DO TYPOGRAFIE A
+  ODBORNÉHO TEXTU. Gaudeamus, 2022, ISBN 978-80-7435-875-3, str.~9.
+
+\bibitem{WhyLatex}
+Kottwitz, S.: \emph{LaTeX Beginner's Guide}, kapitola Getting Started with
+  LaTeX. Packt, 2011, ISBN 978-1-847199-86-7, s. 10--11.
+
+\bibitem{Latexlist}
+LaTeX-Tutorial: LaTeX list Enumerate and Itemize. [online].
+\urlprefix\url{https://latex-tutorial.com/tutorials/lists/}
+
+\bibitem{Bakalarska2}
+itka Michalová: \emph{VÝVOJ A HISTORIE TEORIE PRAVDĚPODOBNOSTI}.
+  Bakalářská práce, VYSOKÉ UČENÍ TECHNICKÉ V BRNĚ FAKULTA STROJNÍHO
+  INŽENÝRSTVÍ, 2020.
+\urlprefix\url{https://dspace.vutbr.cz/bitstream/handle/11012/191724/final-thesis.pdf?sequence=-1}
+
+\bibitem{BakalarPrace1}
+Nová, L.: \emph{Volná typografická kompozice}. Bakalářská práce,
+  Západočeská univerzita v plzni fakulta pedagogická katedra výtvarné
+  výchovy a kultury, 2018.
+\urlprefix\url{https://otik.zcu.cz/bitstream/11025/32253/1/bp_lucie_nova.pdf}
+
+\bibitem{Overleaf}
+Overleaf: Bold, italics and underlining. [online].
+\urlprefix\url{https://ru.overleaf.com/learn/latex/Bold%2C_italics_and_underlining}
+
+\bibitem{Stack}
+TexStackExchange: formatting of sections and subsections. [online].
+\urlprefix\url{https://tex.stackexchange.com/questions/659473/formatting-of-sections-and-subsections}
+
+\end{thebibliography}

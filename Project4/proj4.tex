@@ -1,0 +1,71 @@
+\documentclass[a4paper, 11pt]{article}
+
+\usepackage[left=2cm,text={17cm,24cm},top=3cm]{geometry}
+\usepackage{times}
+\usepackage[czech]{babel}
+\usepackage[unicode]{hyperref}
+
+
+\begin{document}
+\begin{titlepage}
+    \begin{center}
+        {\Huge\textsc{Vysoké učení technické v Brně} \\}
+        \huge
+        \textsc{Fakulta informačních technologií}\\
+        \vspace{\stretch{0.382}}
+            \LARGE
+            Typografie a publikování -- 4. projekt \\
+            \Huge
+            Bibliografie
+        \vspace{\stretch{0.618}}
+    \end{center}
+    {\Large 31. března 2023 \hfill Denys Petrovskyi}
+\end{titlepage}
+
+\section{Úvod}
+Počátek typografie je obvykle spojován se vznikem knihtisku, který kolem roku 1440 vynalezl Johannes Gutenberg.
+Typografie označuje dovednost a umělecký přístup k uspořádání psaného jazyka způsobem, 
+který je vizuálně jasný, snadno čitelný a atraktivní pro diváky. Tento proces zahrnuje pečlivý výběr řezů písma, 
+velikostí bodů, délek řádků, sledování (řádkování) a mezer mezi jednotlivými písmeny. viz \cite{OdbornyText}
+Více o historii typografie se můžete dozvědět zde \cite{BakalarPrace1}
+Fakta o typografii viz \cite{Article}
+\section{\LaTeX}
+
+\LaTeX je systém pro přípravu dokumentů, který je založen na sázecím systému 
+\TeX vyvinutém Donaldem Knuthem na konci 70. let a značkovacím jazyce, který je 
+široce používán pro vytváření vědeckých a technických dokumentů. \LaTeX umožňuje 
+autorům soustředit se na obsah jejich dokumentu, přičemž se stará o formátování, 
+rozvržení a další typografické aspekty. \LaTeX je populární na akademické půdě a ve 
+vědecké komunitě, kde se používá k vytváření dokumentů, jako jsou výzkumné práce, 
+diplomové práce, zprávy a knihy. viz \cite{WhyLatex}. \LaTeX může vytvořit různé krásné vzory 
+a rozvržení pro vaše životopisy nebo články. \cite{FullArticle}
+
+\section{Příkazy v \LaTeX}
+Příkazy jsou základní funkcí LaTeXu, která vám umožňuje formátovat a strukturovat vaše dokumenty. 
+Jsou to klíčová slova, která říkají LaTeXu, aby provedl konkrétní akci nebo změnil vzhled vašeho textu. 
+Zde jsou některé běžné typy příkazů v LaTeXu:
+    \begin{itemize}
+        \item Formátovací příkazy: Tyto příkazy se používají ke změně vzhledu vašeho textu. 
+        Například \verb|\textbf{}| udělá váš text tučným, zatímco \verb|\underline{}| váš text podtrhne. 
+        Mezi další formátovací příkazy patří \verb|\textit{}| pro kurzívu, \verb|\texttt{}| pro písmo psacího stroje a \verb|\sout{}| pro 
+        přeškrtnutý text. viz \cite{Overleaf}
+        \item Příkazy dělení: Tyto příkazy se používají 
+        ke strukturování dokumentu do sekcí, kapitol a podsekcí. Mezi nejčastěji 
+        používané příkazy pro dělení sekcí patří \verb|\section{}|, 
+        \verb|\subsection{}| a \verb|\chapter{}|.viz \cite{Stack}
+        \item Příkazy seznamu: LaTeX poskytuje několik příkazů pro vytváření seznamů. 
+        Prostředí \verb|itemize| vytváří seznamy s odrážkami, zatímco prostředí \verb|enumerate| vytváří číslované seznamy. 
+        Pomocí prostředí popisu můžete také vytvářet vlastní seznamy. viz \cite{Latexlist}
+        \item Matematické příkazy: LaTeX je široce používán v matematice a vědě, 
+        protože poskytuje silnou podporu pro sazbu matematických rovnic. Příkazy pro 
+        matematické symboly a operátory zahrnují \verb|\frac{}{}|, \verb|\sqrt[]{}| a \verb|\sum_{i=1}^{n} {}|.
+        Také v latexu jsou příkazy pro teorii pravděpodobnosti. Vice viz \cite{Bakalarska2}
+
+    \end{itemize}
+\newpage
+
+\bibliographystyle{czechiso}
+\renewcommand{\refname}{Literatura}
+\bibliography{proj4}
+
+\end{document}
